@@ -1,0 +1,388 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+header {
+    min-height: 10vh;
+    background-color: #de6777;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar {
+    height: 8vh;
+    padding: 20px;
+}
+
+.logo {
+    width: 60px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #c74254;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1.5px solid black;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 35px;
+}
+
+main {
+    min-height: 80vh;
+    background-color: hsl(352, 55%, 84%);
+
+}
+
+.titulos {
+    font-size: 25px;
+    color: #de6777;
+    text-align: center;
+}
+
+.subtitulos {
+    font-size: 15px;
+    color: #de6777;
+    text-align: center;
+}
+
+
+.imagenbaner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.imagenparrafo img {
+    width: 160px;
+    height: 150px;
+}
+
+.imagenparrafo p {
+    text-align: justify;
+    color: black;
+    width: 120ch;
+}
+
+section p {
+    color: rgb(0, 0, 0);
+}
+
+
+.imagenparrafo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+section h1{
+    color:#de6777;
+    text-align: center;
+}
+.p21 img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.p21{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.p22 img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.p22{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.p23 img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.p23{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+
+.contacto img {
+    width: 500px;
+    height: 200px;
+
+}
+
+.contacto p{
+    text-align: center;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+.contacto a {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #c74254;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1.5px solid black;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 35px;
+    display: flex;
+ 
+
+}
+
+.titulotabla{
+    text-align: center;
+    color:#de6777;
+    font-size: small;
+}
+.layout {
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+}
+
+td th {
+    padding: 20px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+
+}
+
+.contenedorlistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lista1 img{
+    width: 20rem;
+    height: 13rem;
+    object-fit: cover;
+    padding: 20px;
+
+
+}
+
+.lista1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lista2 img{
+    width: 20rem;
+    height: 13rem;
+    padding: 20px;
+    object-fit: cover;
+}
+.lista2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulotabla {
+    text-align:center;
+    color: #c74254;
+
+}
+
+footer {
+    min-height: 8vh;
+    padding: 10px;
+    background-color: #de6777;
+    font-size: 15px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px;
+}
+
+.tituloform{
+    text-align:start;
+    color: #de6777;
+    font-size: small;
+}
+.formulariocomplet{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+}
+.mapa{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar{
+        height: 35vh;
+    }
+    .navbar a{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenparrafo img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .p21{
+        display: flex;
+        flex-direction: column;
+    }
+    .p22{
+        display: flex;
+        flex-direction: column;
+    }
+    .p23{
+        flex-direction: column;
+    }
+
+    .lista1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulariocomplet{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+
+}
+@media (min-width:320px) and (max-width:768px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar a{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        height:48vh;
+    }
+    .imagenparrafo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenparrafo p{
+        height: 50vh;
+        width: 20vh;
+        display: flex;
+        align-items: center;
+    }
+    .p21{
+        display: flex;
+        flex-direction: column;
+    }
+    .p22{
+        display: flex;
+        flex-direction: column;
+    }
+    .p23{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto img{
+        width: 40vh;
+    
+    }
+    .layout{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .lista1{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .lista2{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .formulariocomplet{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;padding: 30px;
+    }
+}
